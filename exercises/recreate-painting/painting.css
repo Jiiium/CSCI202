@@ -1,0 +1,136 @@
+/* set everything to default */
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+/* Grid */
+.grid-container {
+    width: 670px;
+    margin: 2rem;
+    margin-left: 10%;
+    padding: 5rem;
+    float: left;
+    padding-bottom: 8rem;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
+    grid-row-gap: 100px;
+    justify-items: center;
+}
+
+
+/* Boxes */
+.box1 {
+    width: 10px;
+    height: 90px;
+    background-color: gray;
+    transform: rotate(-40deg);
+    margin-right: 7rem;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(217, 175, 91);
+    transform: rotate(-40deg);
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.box3 {
+    width: 70px;
+    height: 10px;
+    background-color: grey;
+    margin-left: 11rem;
+}
+
+.box4 {
+    width: 30px;
+    height: 70px;
+    background-color: rgb(231, 59, 59);
+    transform: rotate(53deg);
+    justify-self: end;
+    align-self: center;
+    margin-top: 2rem;
+    margin-right: 6rem;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(46, 115, 208);
+    transform: rotate(-40deg);
+    grid-column: 3;
+    justify-self: start;  
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.box6 {
+    width: 80px;
+    height: 10px;
+    background-color: grey;
+    margin-top: 30rem;
+    margin-right: 6rem;
+    
+
+}
+
+.box7 {
+    width: 10px;
+    height: 110px;
+    background-color: gray;
+    transform: rotate(-40deg);
+    justify-self: center;
+}
+
+.box8 {
+    width: 70px;
+    height: 40px;
+    background-color:rgb(217, 175, 91);
+    transform: rotate(-40deg);
+    margin-top: 13rem;
+    margin-left: 3rem;
+}
+
+.box9 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(46, 115, 208);
+    transform: rotate(50deg);
+    justify-self: end;
+    align-self: center;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.box10 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(231, 59, 59);
+    margin-top: 13rem;
+    margin-left: 3rem;
+}
+
+.box11 {
+    width: 100px;
+    height: 10px;
+    background-color: gray;
+    transform: rotate(50deg);
+    margin-top: 16.5rem;
+    margin-left: 11rem;
+}
+
+h1{
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+p{
+    margin-left: 10%;
+}
