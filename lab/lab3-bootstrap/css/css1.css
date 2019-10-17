@@ -1,0 +1,17 @@
+body{
+    background-color: green;
+}
+
+/* for tablet screen */
+@media screen and (max-width: 768px){
+    body{
+        background-color: aquamarine;
+    }
+}
+
+/* for phones and mobile device screen*/
+@media screen and (max-width: 480px) {
+    body{
+        background-color: blue;
+    }
+}

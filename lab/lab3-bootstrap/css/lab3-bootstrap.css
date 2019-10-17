@@ -1,0 +1,40 @@
+/* Footer */
+footer {
+    background:#282828;
+    color: #fff;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #282828;
+}
+
+.nav-link,
+.navbar-brand{
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.jumbotron{
+    min-height: 700px;
+    background-image: url(/lab/lab3-bootstrap/images/header-bg.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.jumbotron .container {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 14%;
+}
