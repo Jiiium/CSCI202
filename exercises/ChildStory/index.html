@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSCI202 | In-Class Exercise</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            font-size: 45px;
+        }
+        p1{
+            font-size: 90px;
+        }
+        span{
+            color: blue;
+        }
+        #largetext{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Mary has <span id="FruitCount"></span> pieces of fruits: <span id="AppleCount"></span> apples, and <span id="BananaCount"></span> bananas.</p>
+
+    <p>Mary eats <span>1</span> apple. Now she has <span id="SecondAppleCount"></span> apples and <span id="SecondFruitCount"></span> pieces of fruits.</p> 
+
+    <p> Along the way back to her house, a witch casts a spell on her <span id="Banana2Count"></span> bananas.</p>
+
+    <p> The bananas multiply three times and fall on the ground. Mary looks down at the <span id="SecondBananaCount"></span> bananas on the ground and is sad. </p>
+
+    <p1 id="largetext">You shouldn't have dropped all those bananas Mary.</p1>
+    
+    <script>
+        var apple = 3;
+        var banana = 4;
+        var fruit = apple + banana;
+        document.getElementById("FruitCount").innerHTML = fruit;
+        document.getElementById("AppleCount").innerHTML = apple;
+        document.getElementById("BananaCount").innerHTML = banana;
+        document.getElementById("Banana2Count").innerHTML = banana;
+        document.getElementById("SecondAppleCount").innerHTML = apple - 1;
+        document.getElementById("SecondFruitCount").innerHTML = fruit - 1;
+        document.getElementById("SecondBananaCount").innerHTML = banana * 3;
+        </script>
+</body>
+</html>
